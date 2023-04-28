@@ -1,0 +1,29 @@
+.curiosidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 5rem;
+    text-align: center;
+    h3 {
+        font-weight: 700;
+        font-size: $tamamho-texto / 2;
+        color: $cor-terciaria;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        &:hover {
+            margin-bottom: 2px solid black;
+        }
+    }
+    
+    h3:hover {
+        margin-bottom: 2px solid black;
+    }
+
+    h4, p {
+        font-weight: 300;
+        width: 30vw;
+        color: $cor-terciaria;
+        line-height: 1.25rem;
+        font-size: $tamamho-texto / 2.5;
+    }
+}
